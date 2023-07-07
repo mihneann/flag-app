@@ -1,7 +1,7 @@
 import moonIcon from '../images/icons8-moon-30.png';
 import sunIocn from '../images/icons8-sun-30.png';
 import ThemeContext from '../ThemeContext';
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 
 export default function Header() {
     const {theme, setTheme} = useContext(ThemeContext)
