@@ -24,7 +24,7 @@ export default function Country() {
     let {name, flag, nativeName, population, region, subregion, capital, topLevelDomain, currencies, languages} = countryDetails
     
     return (Object.keys(countryDetails).length === 0 ? <div></div> :  <div className="w-10/12 max-w-[85rem] mx-auto">
-    <Link to="/">
+    <Link to="/flag-app/">
         <div className={theme ? 'flex items-center  justify-center  gap-3 w-[7rem]  py-1 shadow-[0px_0px_2px_2px_rgba(133,133,133,1)]  mb-[6rem] mt-[5rem]' : 'flex items-center  justify-center  gap-3 w-[7rem]  py-1 shadow-[0px_0px_2px_2px_rgba(21,34,46,1)] text-white mt-[5rem] mb-[6rem]'}>
             <img src={theme ? blackArrow : whiteArrow} alt="" />
             <p>Back</p>
