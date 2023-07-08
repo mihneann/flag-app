@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flag-app/static/css/main.52c37a12.css",
-    "main.js": "/flag-app/static/js/main.ba157e9b.js",
+    "main.js": "/flag-app/static/js/main.7c744e20.js",
     "index.html": "/flag-app/index.html",
     "main.52c37a12.css.map": "/flag-app/static/css/main.52c37a12.css.map",
-    "main.ba157e9b.js.map": "/flag-app/static/js/main.ba157e9b.js.map"
+    "main.7c744e20.js.map": "/flag-app/static/js/main.7c744e20.js.map"
   },
   "entrypoints": [
     "static/css/main.52c37a12.css",
-    "static/js/main.ba157e9b.js"
+    "static/js/main.7c744e20.js"
   ]
 }
