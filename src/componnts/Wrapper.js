@@ -8,7 +8,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<Root />} errorElement={<h1>Error</h1>}>
+        <Route path="/flag-app" element={<Root />} errorElement={<h1>Error</h1>}>
             <Route index  element={<Home/>}/>
             <Route path=":countryCode" element={<Country/>}/>
         </Route>
